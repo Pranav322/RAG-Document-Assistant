@@ -78,8 +78,7 @@ RAG-Document-Assistant/
 
 5. Create a `.env` file in the backend directory with the following variables:
    ```
-   SECRET_KEY=your_secret_key
-   DATABASE_URL=sqlite:///./app.db
+  
    GOOGLE_API_KEY=your_google_api_key
    ```
 
@@ -117,8 +116,7 @@ The backend API documentation is available at `http://localhost:8000/docs` when 
 ## Environment Variables
 
 ### Backend (.env)
-- `SECRET_KEY`: Secret key for JWT token generation
-- `DATABASE_URL`: Database connection URL
+
 - `GOOGLE_API_KEY`: API key for Google Generative AI
 
 ### Frontend (.env)
